@@ -16,5 +16,10 @@
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="marytts-dependencies" />
+      <option name="name" value="marytts-dependencies" />
+      <option name="url" value="$PROJECT_DIR$" />
+    </remote-repository>
   </component>
 </project>
