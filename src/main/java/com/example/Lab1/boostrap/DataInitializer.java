@@ -29,15 +29,12 @@ public class DataInitializer {
         countryService.save(country1);
         Country country2 = new Country(2L,"USA", "North America");
         countryService.save(country2);
-
         Author author1 = new Author(1L,"John", "Allegro", country1);
         authorService.save(author1);
         Author author2 = new Author(2L,"Brian", "Muraresku",country2);
         authorService.save(author2);
         Author author3 = new Author(3L,"Michael", "Pollan",country2);
         authorService.save(author3);
-
-
         bookService.save(new BookDto("The sacred mushroom and the Cross", Category.CLASSICS, 1L, 10));
         bookService.save(new BookDto("The immortality Key", Category.CLASSICS, 2L, 15));
         bookService.save(new BookDto("How to change your mind", Category.CLASSICS, 3L, 20));
