@@ -20,6 +20,12 @@ public class Country {
 
     public Country(){}
 
+    public Country(Long id, String name, String continent) {
+        this.Id = id;
+        this.name = name;
+        this.continent = continent;
+    }
+
     public Long getId() {
         return Id;
     }

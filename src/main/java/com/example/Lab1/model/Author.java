@@ -22,7 +22,7 @@ public class Author {
     }
 
     public Author(Long id, String name, String surname, Country country) {
-        Id = id;
+        this.Id = id;
         this.name = name;
         this.surname = surname;
         this.country = country;
