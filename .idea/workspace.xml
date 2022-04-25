@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb76a92-12f2-4f31-99dd-121671ef88c5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Lab1/model/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Lab1/model/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Lab1/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Lab1/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Lab1/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Lab1/model/Country.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +21,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -60,6 +67,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -134,10 +146,22 @@
       <workItem from="1650531683841" duration="3064000" />
       <workItem from="1650534773469" duration="5085000" />
       <workItem from="1650542110563" duration="2730000" />
+      <workItem from="1650900762264" duration="982000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

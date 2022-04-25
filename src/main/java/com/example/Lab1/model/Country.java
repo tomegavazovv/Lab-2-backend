@@ -1,7 +1,6 @@
 package com.example.Lab1.model;
 
 
-import lombok.Data;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,7 +8,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-@Data
 public class Country {
 
     @Id
@@ -21,4 +19,28 @@ public class Country {
     private String continent;
 
     public Country(){}
+
+    public Long getId() {
+        return Id;
+    }
+
+    public void setId(Long id) {
+        Id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getContinent() {
+        return continent;
+    }
+
+    public void setContinent(String continent) {
+        this.continent = continent;
+    }
 }

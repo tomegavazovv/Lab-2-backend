@@ -1,14 +1,11 @@
 package com.example.Lab1.model;
 
 import com.example.Lab1.model.enumerations.Category;
-import lombok.Data;
-import lombok.Generated;
 
 import javax.persistence.*;
 
 
 @Entity
-@Data
 public class Book {
 
     @Id
@@ -34,5 +31,45 @@ public class Book {
 
     public Book() {
 
+    }
+
+    public void setId(Long id) {
+        Id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
+
+    public void setAuthor(Author author) {
+        this.author = author;
+    }
+
+    public void setAvailableCopies(Integer availableCopies) {
+        this.availableCopies = availableCopies;
+    }
+
+    public Long getId() {
+        return Id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public Author getAuthor() {
+        return author;
+    }
+
+    public Integer getAvailableCopies() {
+        return availableCopies;
     }
 }

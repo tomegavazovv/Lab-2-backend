@@ -1,11 +1,10 @@
 package com.example.Lab1.model;
 
-import lombok.Data;
 
 import javax.persistence.*;
 
 @Entity
-@Data
+
 public class Author {
 
     @Id
@@ -19,5 +18,29 @@ public class Author {
     @ManyToOne
     private Country country;
 
+    public Author() {
+    }
 
+    public Author(Long id, String name, String surname, Country country) {
+        Id = id;
+        this.name = name;
+        this.surname = surname;
+        this.country = country;
+    }
+
+    public Long getId() {
+        return Id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public Country getCountry() {
+        return country;
+    }
 }
